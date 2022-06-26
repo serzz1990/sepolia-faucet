@@ -1,0 +1,20 @@
+{
+  "name": "sepolia",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "tg:chatid": "node src/telegram/chatid.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.2.6",
+    "node-telegram-bot-api": "^0.58.0"
+  }
+}
